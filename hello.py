@@ -1,10 +1,9 @@
+from meow import printMeow
+
 def __main__():
     print("This is main")
+    printMeow(3)
+    pass
 
-print("Hello, World")
-
-print ("First line")
-
-print("Second Line")
-
-__main__()
+if __name__ == "__main__":
+    __main__()
